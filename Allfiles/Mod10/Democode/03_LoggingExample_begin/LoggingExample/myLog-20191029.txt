@@ -1,0 +1,6 @@
+2019-10-29T00:59:05.1647865-05:00 0HLQS6KBR1PU7:00000003 [ERR] An error occured while trying to increase or retrieve the page display count. Number parameter is: 16 (d01e3e98)
+System.Collections.Generic.KeyNotFoundException: The given key '16' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at LoggingExample.Services.Counter.IncrementNumberCount(Int32 number) in C:\Users\jrojas\Documents\jm\cibertec\20486D\Allfiles\Mod10\Democode\03_LoggingExample_begin\LoggingExample\Services\Counter.cs:line 23
+   at LoggingExample.Controllers.HomeController.GetDividedNumber(Int32 id) in C:\Users\jrojas\Documents\jm\cibertec\20486D\Allfiles\Mod10\Democode\03_LoggingExample_begin\LoggingExample\Controllers\HomeController.cs:line 36
+2019-10-29T01:06:35.4508926-05:00 0HLQS6OHNUSVK:00000002 [ERR] GetDividedNumber - Success (e8890a0d)

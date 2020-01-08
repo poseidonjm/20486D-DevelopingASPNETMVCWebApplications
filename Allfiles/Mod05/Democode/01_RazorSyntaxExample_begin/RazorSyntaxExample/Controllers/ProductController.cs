@@ -10,6 +10,9 @@ namespace RazorSyntaxExample.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.ProductPrices = new Dictionary<string, int>();
+            ViewBag.ProductPrices.Add("Bread", 5);
+            ViewBag.ProductPrices.Add("Rice", 2);
             return View();
         }
     }
